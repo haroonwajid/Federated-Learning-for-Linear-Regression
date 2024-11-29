@@ -26,6 +26,17 @@ To get started, clone the repository from GitHub:
 git clone https://github.com/haroonwajid/Federated-Learning-for-Linear-Regression.git
 cd Federated-Learning-for-Linear-Regression
 ```
+## How to Run
+
+### Requirements
+- C/C++ compiler (e.g., GCC or Clang)
+
+### Steps
+1. Compile the client and server programs:
+   ```bash
+   gcc -o client client.cpp
+   gcc -o server server.cpp
+
 ## Introduction
 
 In federated learning:
@@ -134,13 +145,3 @@ Expected Outputs:
 2. RMSE for the global federated model.
 
 ---
-## How to Run
-
-### Requirements
-- C/C++ compiler (e.g., GCC or Clang)
-
-### Steps
-1. Compile the client and server programs:
-   ```bash
-   gcc -o client client.cpp
-   gcc -o server server.cpp
